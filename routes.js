@@ -10,4 +10,9 @@ function coinFlipRoute(request, response) {
   }
 }
 
+function addNumbersRoute(request, response) {
+  response.send(request.params);
+}
+
 module.exports.coinFlipRoute = coinFlipRoute;
+module.exports.addNumbersRoute = addNumbersRoute;

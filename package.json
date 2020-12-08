@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/jackkeepin/CalcApp/issues"
   },
-  "homepage": "https://github.com/jackkeepin/CalcApp#readme"
+  "homepage": "https://github.com/jackkeepin/CalcApp#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1"
+  }
 }

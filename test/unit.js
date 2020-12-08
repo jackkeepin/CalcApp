@@ -23,3 +23,14 @@ suite("Test coin flip", function() {
   });
 
 });
+
+suite("Test the addNumber function", function() {
+
+  test("Test the addNumber function", function() {
+      let x = 2;
+      let y = 9;
+      let expected = 11;
+      let actual = logic.addNumber(x,y);
+      chai.assert.equal(actual, expected, "Function should return " + expected)
+  });
+});
