@@ -1,0 +1,23 @@
+{
+  "name": "workshop-11",
+  "version": "1.0.0",
+  "description": "Here's the description.",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -ui tdd test/",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackkeepin/CalcApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackkeepin/CalcApp/issues"
+  },
+  "homepage": "https://github.com/jackkeepin/CalcApp#readme"
+}
